@@ -2,6 +2,7 @@ package workshop3;
 
 public class Tester {
     public static void main(String[] args) {
+
         Car c=new Car();
         c.pressStartButton();
         c.pressAcceleratorButton();
@@ -13,6 +14,7 @@ public class Tester {
         System.out.println("Colour of c2:" + c2.getColour());
         c2.output();
 
+        //********************************************************//
         Guitar obj1=new Guitar();
         Guitar obj2=new Guitar("G123",2000,"Sony","Model123","hardWood","softWood");
         System.out.println("State of obj1:");
