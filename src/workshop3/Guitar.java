@@ -43,38 +43,36 @@ public class Guitar {
         return price;
     }
 
-    public String getBuilder() {
-        return builder;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public String getBackWood() {
-        return backWood;
-    }
-
-    public String getTopWood() {
-        return topWood;
-    }
-
-
-
     public void setPrice(int price) {
         this.price = price;
+    }
+
+    public String getBuilder() {
+        return builder;
     }
 
     public void setBuilder(String builder) {
         this.builder = builder;
     }
 
+    public String getModel() {
+        return model;
+    }
+
     public void setModel(String model) {
         this.model = model;
     }
 
+    public String getBackWood() {
+        return backWood;
+    }
+
     public void setBackWood(String backWood) {
         this.backWood = backWood;
+    }
+
+    public String getTopWood() {
+        return topWood;
     }
 
     public void setTopWood(String topWood) {

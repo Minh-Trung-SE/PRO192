@@ -8,7 +8,6 @@ import workshop4.dto.Vase;
 import java.util.Scanner;
 
 public class Tester{
-
     public static void main(String[] args){
         Item item = null;
         int choice;
@@ -45,8 +44,6 @@ public class Tester{
                     break;
             }
         }while(choice<=4);
-
     }
-
 }
 

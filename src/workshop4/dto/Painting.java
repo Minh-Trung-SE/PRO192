@@ -27,6 +27,10 @@ public class Painting extends Item {
         height = sc.nextInt();
         System.out.print("Input a width: ");
         width = sc.nextInt();
+        System.out.print("Enter water value (true/false): ");
+        isWatercolour = sc.nextBoolean();
+        System.out.print("Enter framed value (true/false): ");
+        isFramed = sc.nextBoolean();
     }
 
     public void outputPainting(){
