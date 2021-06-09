@@ -24,8 +24,10 @@ public class Item {
         do{
             try {
                 System.out.print("Input value: ");
-                value = scanner.nextInt();
-                break;
+                value = Integer.parseInt(scanner.nextLine());
+                if(value > 0){
+                    break;
+                }
             }catch (Exception e){
                 System.out.println("Invalid value!");
             }
